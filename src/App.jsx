@@ -1,11 +1,14 @@
+import Booking from "./Components/Booking";
+import FirstBanner from "./Components/FirstBanner";
+import SecondBanner from "./Components/SecondBanner";
+
 function App() {
   return (
-    <>
-      <h1 className="text-center">Vite + React</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="w-[950px] mx-auto">
+      <FirstBanner />
+      <SecondBanner />
+      <Booking />
+    </div>
   );
 }
 
